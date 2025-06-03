@@ -31,7 +31,7 @@ service.save_config("app_config", config_data)
 service.register_service(
     name="api_server",
     host="localhost", 
-    port=8000,
+    port=4080,
     service_type="api",
     version="1.0"
 )

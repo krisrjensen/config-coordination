@@ -28,7 +28,7 @@ class ConfigService:
         self.service_registry.register_service(
             name=self.service_name,
             host="localhost",
-            port=8080,  # Default port
+            port=4090,  # Updated port for Worker 2
             service_type="config",
             version="1.0",
             health_endpoint="/health",
